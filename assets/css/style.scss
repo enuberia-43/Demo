@@ -1,0 +1,60 @@
+#container, form, .content {
+    height: 60px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    & .logo {
+        width: 150px;
+        
+        & a {
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    & nav ul {
+        list-style: none;
+        display: flex;
+
+        & li {
+            width: 140px;
+            margin-right: 5px;
+            
+            & a {
+                color: black;
+            }
+        }
+    }
+}
+
+.colum {
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #D3D3D3;
+}
+
+.main_colum {
+    margin-top: 30px;
+    width: 100%;
+    min-height: 160px;
+
+    & .post_form {
+        width: 100%;
+
+        & textarea {
+            width: 80%;
+            height: 70px;
+            border-radius: 5px;
+            border: 1px solid #D3D3D3;
+            font-size: 12px;
+        }
+    }
+}

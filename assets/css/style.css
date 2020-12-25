@@ -1,0 +1,68 @@
+#container, form, .content {
+  height: 60px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  width: 150px;
+}
+
+.header .logo a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header nav ul li {
+  width: 140px;
+  margin-right: 5px;
+}
+
+.header nav ul li a {
+  color: black;
+}
+
+.colum {
+  padding: 10px;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 1px #D3D3D3;
+          box-shadow: 2px 2px 1px #D3D3D3;
+}
+
+.main_colum {
+  margin-top: 30px;
+  width: 100%;
+  min-height: 160px;
+}
+
+.main_colum .post_form {
+  width: 100%;
+}
+
+.main_colum .post_form textarea {
+  width: 80%;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D3D3D3;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
